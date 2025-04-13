@@ -18,14 +18,17 @@
     <!-- modern-normalize -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- Підключення CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="container header-container">
         <nav class="nav">
           <a href="./index.html" class="nav-logo"
             >Web<span class="span">Studio</span></a
@@ -61,7 +64,7 @@
     <main>
       <!-- #region main Effective Solutions -->
       <section id="section-1" class="section-effective-solutions">
-        <div class="container">
+        <div class="container effective-container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button">Order Service</button>
         </div>
@@ -69,7 +72,7 @@
       <!-- #endregion main Effective Solutions -->
       <!-- #region main 2 -->
       <section id="section-2" class="section-main-2">
-        <div class="container">
+        <div class="container main-container">
           <h2 class="title-hidden" hidden>Title</h2>
           <ul class="main-list">
             <li class="main-item">
@@ -106,7 +109,7 @@
       <!-- #endregion main 2 -->
       <!-- #region main Our Team -->
       <section id="section-3" class="section-team">
-        <div class="container">
+        <div class="container container-team">
           <h2 class="title-team">Our Team</h2>
           <ul class="list-team">
             <li class="team-item">
@@ -116,8 +119,10 @@
                 alt="Mark Guerrero, Product Designer"
                 width="264"
               />
-              <h3 class="title-name">Mark Guerrero</h3>
-              <p class="text-team">Product Designer</p>
+              <div class="text-wrapper">
+                <h3 class="title-name">Mark Guerrero</h3>
+                <p class="text-team">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -126,8 +131,10 @@
                 alt="Tom Ford, Frontend Developer"
                 width="264"
               />
-              <h3 class="title-name">Tom Ford</h3>
-              <p class="text-team">Frontend Developer</p>
+              <div class="text-wrapper">
+                <h3 class="title-name">Tom Ford</h3>
+                <p class="text-team">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -136,8 +143,10 @@
                 alt="Camila Garcia, Marketing"
                 width="264"
               />
-              <h3 class="title-name">Camila Garcia</h3>
-              <p class="text-team">Marketing</p>
+              <div class="text-wrapper">
+                <h3 class="title-name">Camila Garcia</h3>
+                <p class="text-team">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
@@ -146,8 +155,10 @@
                 alt="Daniel Wilson, UI Designer"
                 width="264"
               />
-              <h3 class="title-name">Daniel Wilson</h3>
-              <p class="text-team">UI Designer</p>
+              <div class="text-wrapper">
+                <h3 class="title-name">Daniel Wilson</h3>
+                <p class="text-team">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -155,7 +166,7 @@
       <!-- #endregion main Our Team -->
       <!-- #region main Our Portfolio -->
       <section id="section-4" class="section-portfolio">
-        <div class="container">
+        <div class="container container-portfolio">
           <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
             <li class="item-portfolio">
@@ -165,8 +176,10 @@
                 alt="Banking app design"
                 width="360"
               />
-              <h3 class="title-por">Banking App</h3>
-              <p class="text-portfolio">App</p>
+              <div class="text-block">
+                <h3 class="title-por">Banking App</h3>
+                <p class="text-portfolio">App</p>
+              </div>
             </li>
             <li class="item-portfolio">
               <img
@@ -175,8 +188,10 @@
                 alt="Cashless payment solution"
                 width="360"
               />
-              <h3 class="title-por">Cashless Payment</h3>
-              <p class="text-portfolio">Marketing</p>
+              <div class="text-block">
+                <h3 class="title-por">Cashless Payment</h3>
+                <p class="text-portfolio">Marketing</p>
+              </div>
             </li>
             <li class="item-portfolio">
               <img
@@ -185,8 +200,10 @@
                 alt="Meditation app interface"
                 width="360"
               />
-              <h3 class="title-por">Meditation App</h3>
-              <p class="text-portfolio">App</p>
+              <div class="text-block">
+                <h3 class="title-por">Meditation App</h3>
+                <p class="text-portfolio">App</p>
+              </div>
             </li>
             <li class="item-portfolio">
               <img
@@ -195,8 +212,10 @@
                 alt="Taxi service app"
                 width="360"
               />
-              <h3 class="title-por">Taxi Service</h3>
-              <p class="text-portfolio">Marketing</p>
+              <div class="text-block">
+                <h3 class="title-por">Taxi Service</h3>
+                <p class="text-portfolio">Marketing</p>
+              </div>
             </li>
             <li class="item-portfolio">
               <img
@@ -205,8 +224,10 @@
                 alt="Screen illustrations design"
                 width="360"
               />
-              <h3 class="title-por">Screen Illustrations</h3>
-              <p class="text-portfolio">Design</p>
+              <div class="text-block">
+                <h3 class="title-por">Screen Illustrations</h3>
+                <p class="text-portfolio">Design</p>
+              </div>
             </li>
             <li class="item-portfolio">
               <img
@@ -215,8 +236,10 @@
                 alt="Online courses platform"
                 width="360"
               />
-              <h3 class="title-por">Online Courses</h3>
-              <p class="text-portfolio">Marketing</p>
+              <div class="text-block">
+                <h3 class="title-por">Online Courses</h3>
+                <p class="text-portfolio">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
