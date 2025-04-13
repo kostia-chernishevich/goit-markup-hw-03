@@ -260,9 +260,9 @@ a {
   padding-bottom: 120px;
 }
 .container-portfolio {
+  border-top: none;
   padding: 120px 0;
   width: 1128px;
-  border-top: none;
 }
 .text-block {
   border-bottom: 1px solid var(--cornflower);
@@ -281,11 +281,10 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
   padding-top: 120px;
-  padding-bottom: 72px;
   margin-bottom: 8px;
 }
+
 .img-portfolio {
   padding-bottom: 32px;
   width: 360px;
