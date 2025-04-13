@@ -154,7 +154,7 @@ a {
 .section-main {
   padding: 120px 0;
 }
-.visually-hidden {
+.hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -272,6 +272,7 @@ a {
   width: 360px;
   height: auto;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .title-portfolio {
   font-weight: 700;
@@ -283,6 +284,7 @@ a {
   text-transform: capitalize;
   padding-top: 120px;
   margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .img-portfolio {
@@ -307,14 +309,12 @@ a {
   column-gap: 24px;
   row-gap: 48px;
 }
-.title-portfolio {
+.title-por {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
-  margin-bottom: 72px;
   margin-bottom: 8px;
 }
 .text-portfolio {
