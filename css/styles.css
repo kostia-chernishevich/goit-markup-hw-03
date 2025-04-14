@@ -163,7 +163,7 @@ a {
   border: 0;
   padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  clip-path: inset(100%);
   margin: -1px;
 }
 .main-list {
@@ -260,7 +260,6 @@ a {
   padding-bottom: 120px;
 }
 .container-portfolio {
-  border-top: none;
   padding: 120px 0;
   width: 1128px;
 }
